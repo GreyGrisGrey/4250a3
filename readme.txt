@@ -1,0 +1,3 @@
+The code for project 3. part1.py contains part 1 code. part2.py contains part 2 code. map1.txt contains a state map for part 1, just to keep the code files a little cleaner.
+To run, download and open terminal. Navigate to the folder containing the code and input "py part1.py" to run the code for part 1 and "py part2.py" to run the code for part 2.
+As mentioned in the report, the SARSA algorithm behaves differently with different gamma/epsilon values. If you want to look at that it's currently set to a low enough gamma that it won't cross the gap. Changing the gamma value to 1 at line 82 in part 1 should change its behaviour to go through the gap.

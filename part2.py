@@ -92,5 +92,9 @@ def MonteCarlo():
     # Prints the gradient vector, as above gradient[0] is the x value and gradient[1] is the y value
     print(gradient)
 
+print("TD(0) gradient vector")
+print("-----")
 TD()
+print("Monte Carlo gradient vector")
+print("-----")
 MonteCarlo()
